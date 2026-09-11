@@ -186,6 +186,70 @@ h1{font-size:clamp(62px,10vw,126px);line-height:.87;margin:20px 0 26px;letter-sp
 .journal-visuals{padding:2.5rem 0 1rem}.visual-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:1.25rem}.visual-card{background:#e8e3d7;border:1px solid rgba(29,51,40,.18);padding:1.35rem;min-height:240px}.visual-card h3{margin:.25rem 0 1rem;font-size:1.1rem;letter-spacing:.02em}.visual-label{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:#8a4d34}.route-diagram{height:170px;display:flex;align-items:center}.route-diagram svg{width:100%;height:100%}.route-diagram .route-line{fill:none;stroke:#1d3328;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.route-diagram .route-dot{fill:#8a4d34}.route-diagram text{font:12px system-ui,sans-serif;fill:#1d3328}.elevation-bars{display:flex;align-items:end;gap:10px;height:150px;padding-top:1rem;border-bottom:1px solid rgba(29,51,40,.3)}.elevation-bars i{display:block;flex:1;background:#1d3328;opacity:.82;min-height:16px}.elevation-caption{display:flex;justify-content:space-between;font-size:.78rem;margin-top:.65rem;color:#526057}.photo-details{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-top:1.25rem}.photo-detail{aspect-ratio:4/3;overflow:hidden;background:#d7d2c7;border:1px solid rgba(29,51,40,.15)}.photo-detail img{width:100%;height:100%;object-fit:cover;transform:scale(1.28)}.photo-detail:nth-child(1) img{object-position:20% 25%}.photo-detail:nth-child(2) img{object-position:55% 55%}.photo-detail:nth-child(3) img{object-position:82% 75%}.photo-details-note{font-size:.8rem;color:#667168;margin-top:.65rem}.original-archive{margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid rgba(29,51,40,.18)}.original-archive summary{cursor:pointer;font-weight:700;letter-spacing:.02em}.original-archive figure{margin-top:1rem}.original-archive img{width:100%;display:block}.original-archive figcaption{display:flex;justify-content:space-between;gap:1rem;font-size:.75rem;color:#667168;margin-top:.55rem}.visual-note{font-size:.85rem;line-height:1.55;color:#5a665e;margin-top:.7rem}.route-endpoints{display:flex;justify-content:space-between;font-weight:650;font-size:.9rem;margin-top:.35rem}.journal-spread{display:none}.archive-note{border-left:3px solid #8a4d34;padding-left:1rem;color:#667168}
 @media(max-width:760px){.visual-grid{grid-template-columns:1fr}.photo-details{grid-template-columns:1fr}.photo-detail{aspect-ratio:16/9}.original-archive figcaption{display:block}.route-diagram{height:145px}}
 
+
+.photo-banner {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 10px 5px 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.photo-banner .photo-detail {
+    flex: 0 0 auto;
+    width: 300px;
+    scroll-snap-align: start;
+}
+
+.photo-banner .photo-detail img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.photo-banner .photo-detail img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Lightbox */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 95%;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /* V4 cinematic Norway landing page */
 .norway-cinematic-hero{min-height:88vh;display:flex;align-items:stretch;background:linear-gradient(180deg,rgba(10,18,15,.18),rgba(10,18,15,.78)),url('https://www.theviking.co.il/pics/norway.png') center 44%/cover;color:#fff;position:relative}
 .norway-cinematic-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,20,17,.28),transparent 55%);pointer-events:none}
