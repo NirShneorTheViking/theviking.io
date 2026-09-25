@@ -2,7 +2,7 @@
 set -euo pipefail
 BASE="https://www.theviking.co.il/pics"
 mkdir -p pics
-for name in norway norway12 norway3 norway4 norway5 norway6; do
+for name in norway norway_journey_1st norway_journey_2nd norway_journey_3rd norway_journey_4th norway_journey_5th; do
   echo "Downloading ${name}.png"
   curl -fL "${BASE}/${name}.png" -o "pics/${name}.png"
 done

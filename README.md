@@ -25,11 +25,11 @@ A helper script, `fetch-legacy-images.sh`, is included for environments that can
 The following pages remain in place so existing links continue to work:
 
 - `norway.html`
-- `norway12.html`
-- `norway3.html`
-- `norway4.html`
-- `norway5.html`
-- `norway6.html`
+- `norway_journey_1st.html`
+- `norway_journey_2nd.html`
+- `norway_journey_3rd.html`
+- `norway_journey_4th.html`
+- `norway_journey_5th.html`
 
 ## Design direction
 
