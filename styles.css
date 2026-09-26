@@ -26,7 +26,7 @@ img{max-width:100%;display:block}
 .nav-links a{position:relative}
 .nav-links a:after{content:"";position:absolute;left:0;right:100%;bottom:-5px;height:1px;background:var(--accent);transition:.2s ease}
 .nav-links a:hover:after{right:0}
-.hero{position:relative;min-height:82vh;display:grid;align-items:end;padding:112px 0 74px;background:linear-gradient(180deg,rgba(9,16,14,.12),rgba(9,16,14,.78)),url('https://www.theviking.co.il/pics/norway.png') center 42%/cover;color:#fff;overflow:hidden}
+.hero{position:relative;min-height:82vh;display:grid;align-items:end;padding:112px 0 74px;background:linear-gradient(180deg,rgba(9,16,14,.12),rgba(9,16,14,.78)),url('pics/journey/main.JPG') center 42%/cover;color:#fff;overflow:hidden}
 .hero:after{content:"62° N  •  BUILD / EXPLORE / LEARN";position:absolute;right:28px;top:50%;transform:rotate(90deg) translateY(-50%);transform-origin:right top;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.58)}
 .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:54px;align-items:end}
 .hero-side{border-left:1px solid rgba(255,255,255,.32);padding-left:24px;color:rgba(255,255,255,.76);font-size:13px}
@@ -80,7 +80,7 @@ h1{font-size:clamp(62px,10vw,126px);line-height:.87;margin:20px 0 26px;letter-sp
 .stat span{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
 .adventure-grid{display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:16px}
 .adventure-tile{min-height:310px;border:1px solid var(--line);background:var(--card);padding:28px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
-.adventure-tile.primary{min-height:420px;background:linear-gradient(180deg,rgba(17,28,24,.12),rgba(17,28,24,.78)),url('https://www.theviking.co.il/pics/norway.png') center/cover;color:#fff;border-color:transparent}
+.adventure-tile.primary{min-height:420px;background:linear-gradient(180deg,rgba(17,28,24,.12),rgba(17,28,24,.78)),url('pics/journey/main.JPG') center/cover;color:#fff;border-color:transparent}
 .adventure-tile .num{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:850;opacity:.72}
 .adventure-tile h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:34px;line-height:1.02;margin:0 0 8px}
 .adventure-tile p{color:var(--muted);margin:0}
@@ -251,7 +251,7 @@ h1{font-size:clamp(62px,10vw,126px);line-height:.87;margin:20px 0 26px;letter-sp
 }
 
 /* V4 cinematic Norway landing page */
-.norway-cinematic-hero{min-height:88vh;display:flex;align-items:stretch;background:linear-gradient(180deg,rgba(10,18,15,.18),rgba(10,18,15,.78)),url('https://www.theviking.co.il/pics/norway.png') center 44%/cover;color:#fff;position:relative}
+.norway-cinematic-hero{min-height:88vh;display:flex;align-items:stretch;background:linear-gradient(180deg,rgba(10,18,15,.18),rgba(10,18,15,.78)),url('pics/journey/main.JPG') center 44%/cover;color:#fff;position:relative}
 .norway-cinematic-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,20,17,.28),transparent 55%);pointer-events:none}
 .norway-cinematic-inner{position:relative;z-index:1;min-height:88vh;display:flex;flex-direction:column;justify-content:space-between;padding-top:42px;padding-bottom:42px}
 .norway-hero-topline,.norway-hero-foot{display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.72)}

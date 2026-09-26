@@ -14,7 +14,7 @@ Static, dependency-free version of **theviking.co.il**, ready for GitHub Pages.
 
 The redesign currently references the historic Norway hero image at:
 
-`https://www.theviking.co.il/pics/norway.png`
+`pics/journey/main.JPG`
 
 Before switching the live site, copy the original `/pics/` directory from the current repository into this repository. That keeps the historic media self-contained and avoids broken images once GitHub Pages begins serving the new build.
 
