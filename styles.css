@@ -70,7 +70,7 @@ h1{font-size:clamp(62px,10vw,126px);line-height:.87;margin:20px 0 26px;letter-sp
 .focus-item small{display:block;color:var(--muted);font-size:15px;line-height:1.5}
 .focus-item.muted{opacity:.56}
 .feature{display:grid;grid-template-columns:1.12fr .88fr;border:1px solid var(--line);overflow:hidden;background:var(--card);box-shadow:var(--shadow)}
-.feature-image{min-height:560px;background:linear-gradient(180deg,transparent,rgba(12,20,17,.2)),url('pics/journey/main.JPG') center/cover}
+.feature-image{min-height:560px;background:linear-gradient(180deg,transparent,rgba(12,20,17,.2)),url('pics/horn.JPG') center/cover}
 .feature-copy{padding:54px;display:flex;flex-direction:column;justify-content:center}
 .feature-copy h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:54px;line-height:.98;letter-spacing:-.045em;margin:14px 0 22px}
 .lead{font-size:20px;color:var(--muted);max-width:760px}
@@ -80,7 +80,7 @@ h1{font-size:clamp(62px,10vw,126px);line-height:.87;margin:20px 0 26px;letter-sp
 .stat span{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
 .adventure-grid{display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:16px}
 .adventure-tile{min-height:310px;border:1px solid var(--line);background:var(--card);padding:28px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
-.adventure-tile.primary{min-height:420px;background:linear-gradient(180deg,rgba(17,28,24,.12),rgba(17,28,24,.78)),url('pics/journey/main.JPG') center/cover;color:#fff;border-color:transparent}
+.adventure-tile.primary{min-height:420px;background:linear-gradient(180deg,rgba(17,28,24,.12),rgba(17,28,24,.78)),url('pics/horn.JPG') center/cover;color:#fff;border-color:transparent}
 .adventure-tile .num{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:850;opacity:.72}
 .adventure-tile h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:34px;line-height:1.02;margin:0 0 8px}
 .adventure-tile p{color:var(--muted);margin:0}
@@ -251,7 +251,7 @@ h1{font-size:clamp(62px,10vw,126px);line-height:.87;margin:20px 0 26px;letter-sp
 }
 
 /* V4 cinematic Norway landing page */
-.norway-cinematic-hero{min-height:88vh;display:flex;align-items:stretch;background:linear-gradient(180deg,rgba(10,18,15,.18),rgba(10,18,15,.78)),url('pics/journey/main.JPG') center 44%/cover;color:#fff;position:relative}
+.norway-cinematic-hero{min-height:88vh;display:flex;align-items:stretch;background:linear-gradient(180deg,rgba(10,18,15,.18),rgba(10,18,15,.78)),url('pics/horn.JPG') center 44%/cover;color:#fff;position:relative}
 .norway-cinematic-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,20,17,.28),transparent 55%);pointer-events:none}
 .norway-cinematic-inner{position:relative;z-index:1;min-height:88vh;display:flex;flex-direction:column;justify-content:space-between;padding-top:42px;padding-bottom:42px}
 .norway-hero-topline,.norway-hero-foot{display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.72)}
