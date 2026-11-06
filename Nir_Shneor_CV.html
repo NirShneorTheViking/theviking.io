@@ -1,0 +1,432 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nir Shneor | Curriculum Vitae</title>
+
+    <style>
+        @page {
+            size: A4;
+            margin: 14mm 18mm 13mm;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #eee;
+            color: #292929;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 9.2pt;
+            line-height: 1.22;
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 20px auto;
+            padding: 14mm 18mm 10mm;
+            background: white;
+            box-shadow: 0 2px 14px #0002;
+        }
+
+        @media print {
+            .page {
+                width: auto;
+                min-height: 0;
+                margin: 0;
+                padding: 0;
+                box-shadow: none;
+            }
+        }
+
+        /* Header */
+
+        header {
+            margin-bottom: 17px;
+        }
+
+        .name {
+            font: bold 15pt Arial, sans-serif;
+        }
+
+        .cv-label {
+            margin-left: 7px;
+            color: #555;
+            font: 12pt Arial, sans-serif;
+        }
+
+        .red-rule {
+            width: 31px;
+            height: 1px;
+            margin-top: 14px;
+            background: #f33;
+        }
+
+        /* Contact */
+
+        .contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 27px 0 23px;
+            font: 9pt Arial, sans-serif;
+        }
+
+        /* Summary */
+
+        .summary-head {
+            margin-bottom: 7px;
+            font: bold 9.5pt Arial, sans-serif;
+        }
+
+        .expertise {
+            font: italic 8.2pt Georgia, serif;
+        }
+
+        .summary-text {
+            margin: 0 0 10px;
+            font-size: 9.5pt;
+            line-height: 1.18;
+        }
+
+        /* Sections */
+
+        h2 {
+            margin: 9px 0 5px;
+            font: bold 10pt Arial, sans-serif;
+        }
+
+        /* Experience entries */
+
+        .entry {
+            display: grid;
+            grid-template-columns: 27% 73%;
+            margin-bottom: 18px;
+            break-inside: avoid;
+        }
+
+        .date {
+            padding-top: 1px;
+            font-size: 8.5pt;
+            white-space: nowrap;
+        }
+
+        .details {
+            min-width: 0;
+        }
+
+        .role {
+            margin-bottom: 2px;
+            font-weight: bold;
+        }
+
+        .company {
+            font-style: italic;
+        }
+
+        .description {
+            margin: 0;
+        }
+
+        /* Education and other experience */
+
+        .education .entry {
+            margin-bottom: 14px;
+        }
+
+        .other .entry {
+            margin-bottom: 17px;
+        }
+
+        /* Bottom section */
+
+        .bottom-rule {
+            width: 43px;
+            height: 1px;
+            margin: 20px 0 13px;
+            background: #173bff;
+        }
+
+        .bottom h2 {
+            margin: 0 0 1px;
+        }
+
+        .bottom p {
+            margin: 0;
+        }
+
+        .volunteering {
+            margin-top: 17px;
+        }
+
+        .volunteering h2 {
+            margin-bottom: 3px;
+        }
+
+        /* Printing */
+
+        @media print {
+            html, body {
+                background: white;
+            }
+
+            .page {
+                width: auto;
+                min-height: 0;
+                margin: 0;
+                padding: 0;
+                box-shadow: none;
+            }
+
+            * {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<main class="page">
+
+    <header>
+        <span class="name">Nir Shneor</span>
+        <span class="cv-label">Curriculum Vitae</span>
+        <div class="red-rule"></div>
+    </header>
+
+<!--    <div class="contact">-->
+<!--        <div><strong>E-mail</strong> </div>-->
+<!--        <div><strong>Phone</strong> </div>-->
+<!--    </div>-->
+
+    <section>
+        <div class="summary-head">
+            Summary
+            <span class="expertise">
+      AI Engineering | Software Architecture | Cloud &amp; Data Platforms |
+      Cybersecurity | Engineering Strategy | Management
+    </span>
+        </div>
+
+        <p class="summary-text">
+            Engineering leader combining people-first leadership with deep
+            architectural expertise. Builds organizations, develops leaders,
+            shapes technology strategy, and drives AI-powered engineering
+            transformation.
+        </p>
+    </section>
+
+    <h2>Professional Experience</h2>
+
+    <section class="experience">
+
+        <div class="entry">
+            <div class="date">2025–Present</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">Proofpoint</span>,
+                    Director of Engineering, Data &amp; AI
+                </div>
+                <p class="description">
+                    Lead a 50-engineer organization across 8 teams, spanning AI
+                    Engineering, Architecture, Software, Data, DevOps, QA Automation
+                    and Infrastructure. Drive engineering strategy, AI-powered
+                    development transformation, and architecture and infrastructure
+                    across multiple products, including Cloud DLP, Data Security for AI
+                    and Account Takeover (ATO). Products represent nearly $100M in ARR.
+                </p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">2022–2025</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">Proofpoint</span>,
+                    Senior Manager, Engineering &amp; Data
+                </div>
+                <p class="description">
+                    Led Architecture, Infrastructure and Threat Detection Innovation
+                    teams. Drove engineering strategy, cloud threat-detection
+                    architecture, security and cost optimization. Managed
+                    cross-functional Scrum teams delivering new products and
+                    threat-detection capabilities. Hands-on: Python, Java, Scala, AWS.
+                </p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">2021–2022</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">Antidote Health</span>,
+                    R&amp;D Manager &amp; Chief Architect
+                </div>
+                <p class="description">
+                    Led the whole R&amp;D team - scaled from 3 to 15 engineers.
+                    Owned the development roadmap, architecture and engineering
+                    execution, reporting directly to the CTO. Hands-on: Python,
+                    React, React Native, GCP.
+                </p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">2020–2021</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">Moovit</span>,
+                    Core Server Team Leader
+                </div>
+                <p class="description">
+                    Led a team of 5 core backend developers.
+                    Hands-on: Java, AWS, Azure.
+                </p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">2019–2020</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">Clearx</span>,
+                    Tech Lead &amp; Senior Backend Developer
+                </div>
+                <p class="description">
+                    Led the company’s main product and a 4-engineer Scrum team.
+                    Hands-on: Node.js, TypeScript, Python, Kubernetes, AWS.
+                </p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">2017–2019</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">Wix</span>,
+                    Tech Lead &amp; Core Backend Developer
+                </div>
+                <p class="description">
+                    Led projects from product and architecture design through
+                    production. Hands-on: Scala, Node.js, AWS.
+                </p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">2013–2017</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">flok</span> (acquired by Wix),
+                    R&amp;D Manager, Backend Team Leader &amp; Chief Architect
+                </div>
+                <p class="description">
+                    Led the whole R&amp;D team – scaling to 12 engineers, reporting
+                    to the CTO. Owned backend architecture and technical leadership.
+                    Hands-on: PHP, python, AWS.
+                </p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">2011–2013</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">Clixie</span>,
+                    Backend Team Leader &amp; Developer
+                </div>
+                <p class="description">
+                    Led a team of 5 backend developers, reporting to the CTO.
+                    Hands-on: PHP.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <h2>Educational Background</h2>
+
+    <section class="education">
+
+        <div class="entry">
+            <div class="date">2021–2023</div>
+            <div class="details">
+                <div class="role">
+                    MBA, Data Science &amp; Machine Learning,
+                    <em>The Hebrew University of Jerusalem</em>
+                </div>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">2008–2012</div>
+            <div class="details">
+                <div class="role">
+                    B.Sc. Computer Science,
+                    <em>Technion - Israel Institute of Technology</em>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <h2>Other Experience</h2>
+
+    <section class="other">
+
+        <div class="entry">
+            <div class="date">2010–2011</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">BIKS</span>,
+                    Strategic &amp; Intelligence Consulting
+                </div>
+                <p class="description">
+                    Intelligence software systems design and development.
+                </p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="date">2002–2007</div>
+            <div class="details">
+                <div class="role">
+                    <span class="company">IDF, Unit 8200</span>,
+                    Intelligence Officer
+                </div>
+                <p class="description">
+                    Served as Deputy Head of Department and received the Excellent
+                    Officer award. Managed research teams of up to 60 researchers.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="bottom-rule"></div>
+
+    <section class="bottom">
+        <h2>Languages</h2>
+        <p>Hebrew, English</p>
+
+        <div class="volunteering">
+            <h2>Volunteering</h2>
+            <p>
+                <strong>Millumentor</strong> – Mentor, supporting former soldiers
+                in their transition and career development in the tech industry.
+            </p>
+            <p>
+                <strong>Anu Banu</strong> – Supporting school students through
+                the STEM-360 educational project.
+            </p>
+        </div>
+    </section>
+
+</main>
+</body>
+</html>
