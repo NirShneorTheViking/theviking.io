@@ -26,7 +26,7 @@ img{max-width:100%;display:block}
 .nav-links a{position:relative}
 .nav-links a:after{content:"";position:absolute;left:0;right:100%;bottom:-5px;height:1px;background:var(--accent);transition:.2s ease}
 .nav-links a:hover:after{right:0}
-.hero{position:relative;min-height:82vh;display:grid;align-items:end;padding:112px 0 74px;background:linear-gradient(180deg,rgba(9,16,14,.12),rgba(9,16,14,.78)),url('pics/journey/main.JPG') center 42%/cover;color:#fff;overflow:hidden}
+.hero{position:relative;min-height:82vh;display:grid;align-items:end;padding:112px 0 74px;background:linear-gradient(180deg,rgba(9,16,14,.12),rgba(9,16,14,.78)),url('pics/norway_journey/main.JPG') center 42%/cover;color:#fff;overflow:hidden}
 .hero:after{content:"62° N  •  BUILD / EXPLORE / LEARN";position:absolute;right:28px;top:50%;transform:rotate(90deg) translateY(-50%);transform-origin:right top;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.58)}
 .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:54px;align-items:end}
 .hero-side{border-left:1px solid rgba(255,255,255,.32);padding-left:24px;color:rgba(255,255,255,.76);font-size:13px}
@@ -80,11 +80,13 @@ h1{font-size:clamp(62px,10vw,126px);line-height:.87;margin:20px 0 26px;letter-sp
 .stat span{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
 .adventure-grid{display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:16px}
 .adventure-tile{min-height:310px;border:1px solid var(--line);background:var(--card);padding:28px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
-.adventure-tile.primary{min-height:420px;background:linear-gradient(180deg,rgba(17,28,24,.12),rgba(17,28,24,.78)),url('pics/horn.JPG') center/cover;color:#fff;border-color:transparent}
+.adventure-tile.norway{min-height:420px;background:linear-gradient(180deg,rgba(17,28,24,.12),rgba(17,28,24,.78)),url('pics/horn.JPG') center/cover;color:#fff;border-color:transparent}
+.adventure-tile.norway_2{min-height:420px;background:linear-gradient(180deg,rgba(17,28,24,.12),rgba(17,28,24,.78)),url('pics/tent.JPG') center/cover;color:#fff;border-color:transparent}
 .adventure-tile .num{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:850;opacity:.72}
 .adventure-tile h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:34px;line-height:1.02;margin:0 0 8px}
 .adventure-tile p{color:var(--muted);margin:0}
-.adventure-tile.primary p{color:rgba(255,255,255,.78)}
+.adventure-tile.norway p{color:rgba(255,255,255,.78)}
+.adventure-tile.norway_2 p{color:rgba(255,255,255,.78)}
 .adventure-tile.placeholder{background:transparent;border-style:dashed;box-shadow:none}
 .about-grid{display:grid;grid-template-columns:260px 1fr;gap:62px;align-items:start}
 .about-label{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
@@ -252,6 +254,7 @@ h1{font-size:clamp(62px,10vw,126px);line-height:.87;margin:20px 0 26px;letter-sp
 
 /* V4 cinematic Norway landing page */
 .norway-cinematic-hero{min-height:88vh;display:flex;align-items:stretch;background:linear-gradient(180deg,rgba(10,18,15,.18),rgba(10,18,15,.78)),url('pics/horn.JPG') center 44%/cover;color:#fff;position:relative}
+.norway-cinematic-hero-2{min-height:88vh;display:flex;align-items:stretch;background:linear-gradient(180deg,rgba(10,18,15,.18),rgba(10,18,15,.78)),url('pics/tent.JPG') center 44%/cover;color:#fff;position:relative}
 .norway-cinematic-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,20,17,.28),transparent 55%);pointer-events:none}
 .norway-cinematic-inner{position:relative;z-index:1;min-height:88vh;display:flex;flex-direction:column;justify-content:space-between;padding-top:42px;padding-bottom:42px}
 .norway-hero-topline,.norway-hero-foot{display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.72)}
@@ -260,3 +263,44 @@ h1{font-size:clamp(62px,10vw,126px);line-height:.87;margin:20px 0 26px;letter-sp
 .norway-map-section{background:var(--forest);color:#fff;padding:94px 0}.norway-map-head{display:grid;grid-template-columns:1fr 370px;gap:40px;align-items:end}.norway-map-head h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(50px,6vw,82px);font-weight:500;letter-spacing:-.045em;line-height:1;margin:12px 0 0}.norway-map-head p{color:rgba(255,255,255,.68);font-size:14px;line-height:1.65;margin:0}.norway-route-map{margin-top:44px;border-top:1px solid rgba(255,255,255,.16);border-bottom:1px solid rgba(255,255,255,.16);padding:26px 0 18px}.norway-route-map svg{width:100%;height:auto;display:block}.norge-silhouette{fill:rgba(255,255,255,.06);stroke:rgba(255,255,255,.2);stroke-width:1.5}.norge-route{fill:none;stroke:#d6b090;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.route-stop{fill:#f3f0e8;stroke:#9a4a36;stroke-width:3}.norway-route-map text{font:14px Inter,system-ui,sans-serif;fill:rgba(255,255,255,.78)}.norway-route-map .map-sea{font-size:11px;letter-spacing:4px;fill:rgba(255,255,255,.28)}.norway-map-legend{display:flex;justify-content:space-between;gap:24px;margin-top:14px;color:rgba(255,255,255,.56);font-size:11px}.norway-map-legend span:first-child{display:flex;align-items:center;gap:8px}.norway-map-legend i{width:28px;height:3px;background:#d6b090;display:inline-block}
 .norway-chapters-section{background:var(--paper)}.norway-chapter-stack{border-top:1px solid var(--line)}.norway-chapter-card{display:grid;grid-template-columns:74px minmax(0,1fr) 130px;gap:24px;align-items:center;padding:30px 0;border-bottom:1px solid var(--line);transition:.2s ease}.norway-chapter-card:hover{background:rgba(255,255,255,.38);padding-left:12px;padding-right:12px}.chapter-count{font-size:12px;font-weight:900;letter-spacing:.1em;color:var(--accent)}.chapter-main>span{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);font-weight:800;margin-bottom:6px}.chapter-main h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(30px,3.4vw,47px);font-weight:500;letter-spacing:-.035em;line-height:1.08;margin:0 0 8px}.chapter-main p{max-width:720px;color:var(--muted);margin:0}.chapter-go{text-align:right;font-size:12px;font-weight:850}.norway-archive-banner{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:82px 0}.norway-archive-grid{display:grid;grid-template-columns:1fr 1fr;gap:76px;align-items:start}.norway-archive-grid h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(42px,5vw,68px);font-weight:500;letter-spacing:-.04em;line-height:1.03;margin:10px 0}.norway-archive-grid p{font-family:Georgia,"Times New Roman",serif;font-size:20px;line-height:1.65;margin-top:8px;color:var(--ink)}
 @media(max-width:800px){.norway-cinematic-hero,.norway-cinematic-inner{min-height:78vh}.norway-hero-topline span:last-child{display:none}.norway-title-wrap{padding:58px 0 34px}.norway-title-wrap h1{font-size:clamp(64px,19vw,96px)}.norway-intro-grid,.norway-map-head,.norway-archive-grid{grid-template-columns:1fr;gap:26px}.norway-intro-copy{padding-top:0}.norway-stats-band{grid-template-columns:1fr 1fr}.norway-stats-band>div:nth-child(3){border-left:0;border-top:1px solid var(--line)}.norway-stats-band>div:nth-child(4){border-top:1px solid var(--line)}.norway-chapter-card{grid-template-columns:46px 1fr}.chapter-go{grid-column:2;text-align:left}.norway-map-legend{display:block}.norway-map-legend span{display:flex;margin-top:8px}.norway-route-map text{font-size:18px}.norway-map-section{padding:70px 0}}
+
+
+.adventure-gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.adventure-track {
+    display: flex;
+    gap: 22px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 10px 2px 24px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) transparent;
+}
+
+.adventure-track::-webkit-scrollbar {
+    height: 6px;
+}
+
+.adventure-track::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 10px;
+}
+
+.adventure-tile {
+    flex: 0 0 340px;
+    min-height: 260px;
+    scroll-snap-align: start;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .adventure-tile {
+        flex-basis: 85%;
+        min-height: 230px;
+    }
+}
